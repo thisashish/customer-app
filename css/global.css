@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  font-size: 1rem; /* Equivalent to leading-[normal] */
+  margin: 0;
+  background-color: #eeeff2;
+}
+
+*,
+::before,
+::after {
+  border-width: 0;
+}
